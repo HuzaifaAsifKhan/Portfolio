@@ -459,6 +459,10 @@ p {
   font-weight: 500;
 }
 
+ul.list-unstyled.list-social {
+  margin: 0 auto;
+}
+
 .hero-content .list-social li {
   float: left;
   margin-right: 20px;
