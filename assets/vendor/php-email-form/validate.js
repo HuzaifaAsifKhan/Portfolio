@@ -69,9 +69,9 @@
     .then(data => {
 
 
-      console.log(data, '=-=-=-=-=-=-=-=-=-=-')
+      console.log(JSON.parse(data), '=-=-=-=-=-=-=-=-=-=-')
       thisForm.querySelector('.loading').classList.remove('d-block');
-      if (data.trim() == 'OK') {
+      if ((JSON.parse(data)).ok) {
         thisForm.querySelector('.sent-message').classList.add('d-block');
         thisForm.reset(); 
       } else {
