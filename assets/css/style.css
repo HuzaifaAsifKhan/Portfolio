@@ -478,6 +478,8 @@ ul.list-unstyled.list-social {
 /*--------------------------------------------------------------
 # My Resume
 --------------------------------------------------------------*/
+
+
 .section-title {
   text-align: center;
   padding: 30px 0;
@@ -532,7 +534,9 @@ ul.list-unstyled.list-social {
 
 
 
-
+section#resume {
+  background: #fffcfc;
+}
 
 
 
