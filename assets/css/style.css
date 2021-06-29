@@ -1592,3 +1592,91 @@ blockquote {
     margin-right: 0;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+#footer_new {
+  background: url("../img/footer-bg.jpg") top center no-repeat;
+  background-size: cover;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  padding: 80px 0;
+  position: relative;
+}
+
+#footer_new::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+#footer_new .container {
+  position: relative;
+}
+
+#footer_new h3 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #fff;
+  position: relative;
+  font-family: "Satisfy", serif;
+  padding: 0;
+  margin: 0 0 15px 0;
+}
+
+#footer_new p {
+  font-size: 15;
+  font-style: italic;
+  padding: 0;
+  margin: 0 0 40px 0;
+}
+
+#footer_new .social-links {
+  margin: 0 0 40px 0;
+}
+
+#footer_new .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #ffb727;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+#footer_new .social-links a:hover {
+  background: #f3a200;
+  color: #fff;
+  text-decoration: none;
+}
+
+#footer_new .copyright {
+  margin: 0 0 5px 0;
+}
+
+#footer_new .credits {
+  font-size: 13px;
+}
