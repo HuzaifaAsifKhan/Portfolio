@@ -1748,7 +1748,8 @@ blockquote {
 }
 
 .contact_new .php-email-form button[type="submit"]:hover {
-  background: #ffc85a;
+  /* background: #ffc85a; */
+  background: #4caf50;
 }
 
 .contact_new textarea {
