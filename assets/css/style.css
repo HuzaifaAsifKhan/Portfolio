@@ -561,7 +561,8 @@ section#resume {
   font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
-  color: #ffb727;
+  /* color: #ffb727; */
+  color:#607d8b;
   margin-bottom: 10px;
 }
 
@@ -1655,7 +1656,8 @@ blockquote {
 #footer_new .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #ffb727;
+  /* background: #ffb727; */
+  background:#009688;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
