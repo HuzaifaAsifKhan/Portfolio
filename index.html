@@ -498,72 +498,87 @@
 
     </div><!-- End Journal Section -->
 
-    <!-- ======= Contact Section ======= -->
-    <div id="contact" class="paddsection">
+
+    <!-- ======= Contact Me Section ======= -->
+    <section id="contact_new" class="contact_new">
       <div class="container">
-        <div class="contact-block1">
-          <div class="row">
 
-            <div class="col-lg-6">
-              <div class="contact-contact">
+        <div class="section-title">
+          <span>Contact Me</span>
+          <h2>Contact Me</h2>
+          <p>I will get back to you as soon as possible!.You may also email me at huzaifaasifkhan@hotmail.com</p>
+        </div>
 
-                <h2 class="mb-30">GET IN TOUCH</h2>
+        <div class="row">
 
-                <ul class="contact-details">
-                  <li><span>17 Main, Street</span></li>
-                  <li><span>Harley Street, Rawalpindi Pakistan</span></li>
-                  <li><span>+92 321 5598503</span></li>
-                  <li><span href="mailto:huzaifaasifkhan@hotmail.com">huzaifaasifkhan@hotmail.com</span></li>
-                </ul>
+          <div class="col-lg-6">
 
+            <div class="row">
+              <div class="col-md-12">
+                <div class="info-box">
+                  <i class="bx bx-share-alt"></i>
+                  <h3>Social Profiles</h3>
+                  <div class="social-links">
+                    <a href="https://www.facebook.com/huzaifaasifkhankashmire" class="facebook"><i class="bx bxl-facebook"></i></a>
+                    <!-- <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a> -->
+                    <a href="skype:live:1463c343f0738da8?chat" class="google-plus"><i class="bx bxl-skype"></i></a>
+                    <a href="https://git.vizz-apps.com/Huzaifa" class="github"><i class="bx bxl-github"></i></a>
+                    <a href="https://github.com/HuzaifaAsifKhan" class="github"><i class="bx bxl-github"></i></a>
+                    <a href="https://www.linkedin.com/in/huzaifa-asif-646755213/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box mt-4 mb-4">
+                  <i class="bx bx-envelope"></i>
+                  <h3>Email Me</h3>
+                  <p>huzaifaasifkhan@hotmail.com</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box mt-4 mb-4">
+                  <i class="bx bx-phone-call"></i>
+                  <h3>Call Me</h3>
+                  <p>+92 321 5598503</p>
+                </div>
               </div>
             </div>
 
-            <div class="col-lg-6">
-              <form action="https://formspree.io/f/myylpgbo" method="POST" role="form" class="php-email-form">
-                <div class="row gy-3">
-
-                  <div class="col-lg-6">
-                    <div class="form-group contact-block1">
-                      <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-                    </div>
-                  </div>
-
-                  <div class="col-lg-6">
-                    <div class="form-group">
-                      <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-                    </div>
-                  </div>
-
-                  <div class="col-lg-12">
-                    <div class="form-group">
-                      <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-                    </div>
-                  </div>
-
-                  <div class="col-lg-12">
-                    <div class="form-group">
-                      <textarea class="form-control" name="message" placeholder="Message" required></textarea>
-                    </div>
-                  </div>
-
-                  <div class="col-lg-12">
-                    <div class="loading">Loading</div>
-                    <div class="error-message"></div>
-                    <div class="sent-message">Your message has been sent. Thank you!</div>
-                  </div>
-
-                  <div class="mt-0">
-                    <input type="submit" class="btn btn-defeault btn-send" value="Send message">
-                  </div>
-
-                </div>
-              </form>
-            </div>
           </div>
+
+          <div class="col-lg-6">
+            <form action="https://formspree.io/f/myylpgbo" method="POST" role="form" class="php-email-form">
+              <div class="form-row row">
+                <div class="col-md-6 form-group mt-4">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" required />
+                  <div class="validate"></div>
+                </div>
+                <div class="col-md-6 form-group mt-4">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" required />
+                  <div class="validate"></div>
+                </div>
+              </div>
+              <div class="form-group mt-4">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" required/>
+                <div class="validate"></div>
+              </div>
+              <div class="form-group mt-4">
+                <textarea class="form-control" name="message" rows="12" data-rule="required" data-msg="Please write something for us" placeholder="Message" required></textarea>
+                <div class="validate"></div>
+              </div>
+              <div class="mb-3 mt-4">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center mt-4"><button type="submit">Send Message</button></div>
+            </form>
+          </div>
+
         </div>
+
       </div>
-    </div><!-- End Contact Section -->
+    </section><!-- End Contact Me Section -->
 
   </main><!-- End #main -->
 
