@@ -151,7 +151,7 @@ p {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #b8a07e;
+  background: #009688;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -257,7 +257,8 @@ p {
 }
 
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #b8a07e;
+  /* color: #b8a07e; */
+  color: #009688;
 }
 
 .navbar .dropdown ul {
