@@ -729,7 +729,8 @@ section#resume {
 
 .services-block i {
   font-size: 44px;
-  color: #b8a07e;
+  /* color: #b8a07e; */
+  color: #009688;
   line-height: 44px;
 }
 
@@ -743,11 +744,13 @@ section#resume {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #b8a07e;
+  /* border: 1px solid #b8a07e; */
+  border: 1px solid #009688;
 }
 
 .services-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #b8a07e;
+  /* background-color: #b8a07e; */
+  background-color: #009688;
 }
 
 /*--------------------------------------------------------------
@@ -781,7 +784,8 @@ section#resume {
 }
 
 #portfolio #portfolio-flters li:hover, #portfolio #portfolio-flters li.filter-active {
-  color: #b8a07e;
+  /* color: #b8a07e; */
+  color: #009688;
 }
 
 #portfolio #portfolio-flters li:last-child {
