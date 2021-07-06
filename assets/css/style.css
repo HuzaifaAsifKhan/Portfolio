@@ -47,6 +47,10 @@ a:hover {
   transition: all 0.5s ease-in-out 0s;
 }
 
+a.mail_link, a.mobile_link {
+  color: #999999;
+}
+
 p {
   margin: 25px 0;
   padding: 0;
