@@ -210,6 +210,23 @@
    * Porfolio isotope and filter
    */
   window.addEventListener('load', () => {
+
+
+
+
+     // Skills section
+  $('.skills-content').waypoint(function() {
+    $('.progress .progress-bar').each(function() {
+      $(this).css("width", $(this).attr("aria-valuenow") + '%');
+    });
+  }, {
+    offset: '80%'
+  });
+
+
+
+
+
     let portfolioContainer = select('.portfolio-container');
     if (portfolioContainer) {
       let portfolioIsotope = new Isotope(portfolioContainer, {
@@ -258,5 +275,9 @@
       clickable: true
     }
   });
+
+
+
+   
 
 })()
